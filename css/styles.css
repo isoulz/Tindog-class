@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat";
+}
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.header-1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* dog image */
+.dog-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Nav bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* icon color */
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* title image */
+.title-image {
+  transform: rotate(24deg);
+  width: 55%;
+  position: absolute;
+  right: 30%;
+}
+.index-cov {
+  position: relative;
+}
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.pricing-colo {
+  padding: 3% 2%;
+}
+
+/* features section */
+#features {
+  line-height: 2rem;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+#features p {
+  color: #8f8f8f;
+  font-family: "Montserrat-light";
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.features-space i {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-family: "Montserrat-Black";
+  color: white;
+  padding-top: 2%;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.foot-icon {
+  margin: 5% 1% 5% 1%;
+}
+
+#footer,
+p {
+  font-family: "Montserrat-light";
+}

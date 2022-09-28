@@ -1,1 +1,1 @@
-# tindog-class
+TinDog Starting Files
